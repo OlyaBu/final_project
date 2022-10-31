@@ -1,0 +1,13 @@
+.card{
+background-color:rgba(73, 117, 87, 1);
+height: 40vh;
+width: 20vh;
+margin: 2%;
+color: aliceblue;
+
+}
+.card_holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
