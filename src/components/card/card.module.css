@@ -1,13 +1,19 @@
+
 .card{
 background-color:rgba(73, 117, 87, 1);
-height: 40vh;
-width: 20vh;
-margin: 2%;
+height: 60vh;
+width: 40vh;
+margin: 5%;
 color: aliceblue;
+height: auto;
+border-radius: 3%;
+box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+text-align: center;
 
 }
 .card_holder{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  flex-direction:column;
+   height: fit-content;
+  margin-bottom: 5%;
 }

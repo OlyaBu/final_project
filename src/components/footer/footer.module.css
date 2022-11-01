@@ -1,4 +1,5 @@
-.footer{
+.footer {
+    flex: 0 0 auto;
     height: 20vh;
-    background-color: #0C4A34;
-}
+    background-color:#0C4A34;
+  }

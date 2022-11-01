@@ -1,0 +1,119 @@
+.block_table {
+    display:flex;
+    flex-direction:row;
+    margin: 5%;
+    background-color: #f5f1ed;
+    
+}
+.table {
+    display:flex;
+    flex-direction:column;
+    border:#eaebe8 0.5px solid;
+    padding:0;
+    margin:0;
+    width:100%;
+    border-radius: 3%;  
+}
+.table_number{
+    display:flex;
+    flex-direction:column;
+    border:#eaebe8 0.5px solid;
+    padding:0;
+    margin:0;
+    border-radius: 3%;
+    width: 10vw;     
+}
+.table_delete{
+    display:flex;
+    flex-direction:column;
+    border:#eaebe8 0.5px solid;
+    padding:0;
+    margin:0;
+    border-radius: 3%;
+    width: auto;    
+}
+
+.table_title {
+    text-align:center;
+    height: 3vh;
+    list-style:none;
+    font-size:19px;
+    background:#497557;
+    width:100%;
+    border:#eaebe8 1px solid;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.table_title_number {
+    text-align:center;
+    height: 3vh;
+    list-style:none;
+    font-size:19px;
+    background:#497557;
+    width:100%;
+    border:#eaebe8 1px solid;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.row {
+    list-style:none;
+    border:#eaebe8 1px solid;
+    padding:10px;
+    margin:0;
+    text-align:center;
+}
+.row_number {
+    list-style:none;
+    border:#eaebe8 1px solid;
+    padding:10px;
+    margin:0;
+    text-align:center;
+}
+
+
+
+.btn_delete {
+    margin-right: 2%;
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit fit-content;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #F64C2B;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  }
+  .btn_delete{
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }
+  .btn_save {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #497557;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#7db48f, #6ca17d 48%, #497557 52%, #385d44);
+  }
+  .btn_save{
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }

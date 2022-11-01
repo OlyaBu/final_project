@@ -1,24 +1,22 @@
 import React from 'react';
-import './App.css';
+import styles from './App.module.css';
 import * as classNames from 'classnames';
 import Header from './components/header/header';
-import Card from './components/card/card';
+import Body from './components/body/body';
 import Footer from './components/footer/footer';
+import Card from './components/card/card';
 
 
 class App extends React.Component {
   render() {
       return (
   
-          <React.Fragment>
-            
-              <Header/>
-         <Card/>
-        
-         <Footer/>
-  
-          </React.Fragment>
-        
+       <div className={styles.container}>
+        <Header/>
+        <Body>
+
+        </Body>
+         </div>  
       );
   }
 };
