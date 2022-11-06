@@ -3,7 +3,7 @@
     src: url(../body/Montserrat-Light.ttf);
 }
 .header{
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     display: flex;
     background:#02291C; 
@@ -32,10 +32,9 @@ justify-content: space-around;
     bottom: -3px;
     width: 0;
     height: 2px; 
-    background-color: rgb(218, 142, 142); /* Цвет подчеркивания при исчезании линии*/
-    transition: width 0.5s; /* Время эффекта */
+    background-color: rgb(218, 142, 142); 
+    transition: width 0.5s; 
 }
-
 .about:hover:after {
 	content: "";
     width: 100%;

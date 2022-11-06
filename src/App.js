@@ -13,9 +13,9 @@ class App extends React.Component {
   
        <div className={styles.container}>
         <Header/>
-        <Body>
+        <Body/>
 
-        </Body>
+  
          </div>  
       );
   }

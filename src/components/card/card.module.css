@@ -2,7 +2,7 @@
 .card{
 background-color:rgba(73, 117, 87, 1);
 height: 60vh;
-width: 40vh;
+width: 20vh;
 margin: 5%;
 color: aliceblue;
 height: auto;
@@ -12,8 +12,19 @@ text-align: center;
 
 }
 .card_holder{
-    display: flex;
+  display: flex;
   flex-direction:column;
-   height: fit-content;
+  height: fit-content;
   margin-bottom: 5%;
 }
+
+.button {
+  width: 130px;
+  height: 40px;
+  background-color: #02291C;
+  color: beige;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-family:'Montserrat-Light';
+  font-weight: 500;
+} 

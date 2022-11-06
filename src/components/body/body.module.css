@@ -5,22 +5,23 @@
 .main{
     display: flex;
     flex-direction: column;
-    height: 90vh;
-    font-family:'Montserrat-Light';
-    width: 100%;
+justify-content: center;
+width: 104vw;
 }
 .title{
+   
     font-size: 60px;
     text-align: center;
     color: #02291C;
+    margin: 0;
+    padding: 0;
 }
 
 
 .foto{
     text-align-last: center;
     background-image: url(./back.jpg);
-    background-size: 100%; 
-    
+    background-size: 100%;     
 }
 
 .animated{
