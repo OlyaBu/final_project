@@ -13,6 +13,7 @@ export default function Body () {
 
  </div> 
    <Card id='to do smth' pronounce='[tu tu]' meaning='делать что-то'/>
+   
    <Vocabulary/>
 <Footer/>
             </div>

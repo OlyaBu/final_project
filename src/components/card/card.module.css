@@ -1,8 +1,8 @@
 
 .card{
 background-color:rgba(73, 117, 87, 1);
-height: 60vh;
-width: 20vh;
+height: 400px;
+width: 200px;
 margin: 5%;
 color: aliceblue;
 height: auto;
@@ -24,7 +24,17 @@ text-align: center;
   background-color: #02291C;
   color: beige;
   border-radius: 5px;
-  margin-top: 15px;
+
   font-family:'Montserrat-Light';
   font-weight: 500;
+  margin-bottom: 10%;
+  margin-top: 10%;
 } 
+
+.divTranslate{
+  margin-bottom: 15%;
+  margin-top: 10%;
+  font-family:'Montserrat-Light';
+  font-weight: 500;
+  color: beige;
+}
