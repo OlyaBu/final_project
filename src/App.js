@@ -1,24 +1,20 @@
-import React from 'react';
-import styles from './App.module.css';
-import * as classNames from 'classnames';
-import Header from './components/header/header';
-import Body from './components/body/body';
-import Footer from './components/footer/footer';
-import Card from './components/card/card';
-
+import React from "react";
+import styles from "./App.module.css";
+import * as classNames from "classnames";
+import Header from "./components/introduction/header/header";
+import Body from "./components/introduction/body";
+import Footer from "./components/introduction/footer/footer";
 
 class App extends React.Component {
   render() {
-      return (
-  
-       <div className={styles.container}>
-        <Header/>
-        <Body/>
-
-  
-         </div>  
-      );
+    return (
+      <div className={styles.container}>
+     
+        <Body />
+       
+      </div>
+    );
   }
-};
+}
 
 export default App;

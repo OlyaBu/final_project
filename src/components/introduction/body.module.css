@@ -1,7 +1,4 @@
-@font-face {
-    font-family:'Montserrat-Light';
-    src: url(./Montserrat-Light.ttf);
-}
+
 .main{
     display: flex;
     flex-direction: column;

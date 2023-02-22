@@ -2,43 +2,34 @@
     display:flex;
     flex-direction:row;
     margin: 5%;
-    background-color: #f5f1ed;
+align-self: stretch; 
+justify-content: center;  
     
 }
 .table {
     display:flex;
     flex-direction:column;
     border:#eaebe8 0.5px solid;
+    width: fit-content;
     padding:0;
     margin:0;
-    width:100%;
     border-radius: 3%;  
 }
 .table_number{
     display:flex;
     flex-direction:column;
-    border:#eaebe8 0.5px solid;
+    border: #000111 0,5px solid;
     padding:0;
     margin:0;
     border-radius: 3%;
     width: 10vw;     
 }
-.table_delete{
-    display:flex;
-    flex-direction:column;
-    border:#eaebe8 0.5px solid;
-    padding:0;
-    margin:0;
-    border-radius: 3%;
-    width: auto;    
-}
+
 
 .table_title {
     text-align:center;
     height: 3vh;
-    list-style:none;
     font-size:19px;
-    background:#497557;
     width:100%;
     border:#eaebe8 1px solid;
     padding-top:10px;
@@ -57,7 +48,7 @@
 }
 .row {
     list-style:none;
-    border:#eaebe8 1px solid;
+    border:#858683 1px solid;
     padding:10px;
     margin:0;
     text-align:center;
@@ -77,7 +68,7 @@
     position: relative;
     display: inline-block;
     width: fit-content;
-    height: fit fit-content;
+    height: fit-content;
     line-height: 2.5em;
     vertical-align: middle;
     text-align: center;
@@ -96,6 +87,7 @@
     box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
   }
   .btn_save {
+    height: fit-content;
     position: relative;
     display: inline-block;
     width: fit-content;
@@ -111,8 +103,26 @@
     border-radius: 5px;
     box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
     background: linear-gradient(#7db48f, #6ca17d 48%, #497557 52%, #385d44);
+    top: .1em;
+    left: .1em;
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
   }
-  .btn_save{
+  .btn_write {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    line-height: 2.5em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #d1db5f;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#becb57, #b0c262 48%, #b4b655 52%, #859e3f);
     top: .1em;
     left: .1em;
     box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;

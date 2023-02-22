@@ -13,8 +13,8 @@ export default function Card (props) {
     return(
         <div className={style.card_holder}>
 <div className={style.card}>  
-            <h4 className={style.card_title}>{id}</h4>
-            <div className={style.pronounce}>{pronounce}</div>
+            <h4 className={style.card_title}>{id} check</h4>
+            <div className={style.pronounce}>{pronounce}CHek</div>
    <Button/>
             </div>
             </div>

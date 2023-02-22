@@ -12,10 +12,10 @@ export default function Button(props){
 return(
     pressed ?
 
-   <div className={style.divTranslate} onClick={handleChange}> Перевод </div>
+   <div className={style.divTranslate} onClick={handleChange}> проверь  </div>
    : 
 
-   <button className={style.button} onClick={handleChange}>Проверить</button>
+   <button className={style.button} onClick={handleChange}>Перевод</button>
   
    )
 }
