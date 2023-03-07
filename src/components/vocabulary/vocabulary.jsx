@@ -13,9 +13,8 @@ export default function Vocabulary(props) {
     return(
 
 <div class={style.block_table}>
-<table>
+<table class={style.table}>
   <tr>
-    <th class={style.table_title_number}>#</th>
     <th class={style.table_title_number}> Слово</th>
     <th class={style.table_title_number}> Транскрипция </th>
     <th class={style.table_title_number}> Значение</th>
@@ -24,7 +23,6 @@ export default function Vocabulary(props) {
 
   {isEdit ? (
   <tr>
-    <td>{number}</td>
     <td>{english}</td>
     <td >{transcrition}</td>
     <td>{translate}</td>
@@ -34,10 +32,10 @@ export default function Vocabulary(props) {
   )
   : (
   <tr>
-<td><input type="text" defaultValue= {number}/></td>
-  <td><input type="text" defaultValue= {english}/></td>
-  <td> <input type="text" defaultValue={transcrition}/></td>
-  <td><input type="text" defaultValue= {translate}/></td>
+
+  <td><input className={style.input} type="text" defaultValue= {english}/></td>
+  <td> <input className={style.input} type="text" defaultValue={transcrition}/></td>
+  <td><input className={style.input} type="text" defaultValue= {translate}/></td>
   <button className={style.btn_save} onClick={GetEditUser}> Save</button>
 </tr>)
 }

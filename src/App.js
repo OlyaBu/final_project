@@ -5,11 +5,9 @@ import Body from "./components/introduction/Body";
 
 export default function App() {
     return (
-      <div className={styles.container}>
-     
+   
         <Body />
        
-      </div>
     );
   }
 

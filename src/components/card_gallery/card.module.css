@@ -1,42 +1,82 @@
 
 .card{
-background-color:rgba(73, 117, 87, 1);
-height: 400px;
-width: 200px;
-margin: 5%;
-color: aliceblue;
-height: auto;
-border-radius: 3%;
+border: 5px solid rgb(55, 57, 55);
+height: 30vh;
+width: 20vw;
+margin:  10% 5% 5% 5%;
+border-radius: 50px 50px 50px 50px;
 box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 text-align: center;
-background: #02291C;
-}
+font-family: 'Montserrat';
+padding-top: 3%;
 
 
-.card_holder{
-  display: flex;
-  flex-direction:column;
-  height: fit-content;
-  margin-bottom: 5%;
+
+
 }
+
 
 .button {
   width: 130px;
   height: 40px;
-  background-color: #02291C;
-  color: beige;
-  border-radius: 5px;
-
-  font-family:'Montserrat-Light';
+  font-family:'Montserrat';
   font-weight: 500;
+  font-size: x-large;
   margin-bottom: 10%;
   margin-top: 10%;
+  background: none;
+  border: 0cm;
 } 
 
 .divTranslate{
   margin-bottom: 15%;
   margin-top: 10%;
-  font-family:'Montserrat-Light';
-  font-weight: 500;
-  color: beige;
+  font-family:'Montserrat';
+  font-weight: 800;
+  font-size: x-large;
+  background-color: #d8b5e2;
+  border-radius: 5px;
+
+  
+}
+
+@keyframes card
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.card:hover
+{
+    -webkit-animation: card 1s ease;
+    animation: card 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }

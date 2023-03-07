@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
-import styles from "./body.module.css";
+import  style from "./body.module.css";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Vocabulary from "../vocabulary/vocabulary";
 import Card from "../card_gallery/Card";
 import words from '../words.json';
-import fadeIn from 'react-animations/lib/fade-in'
-import Radium, {StyleRoot} from 'radium';
+
 
 export default function Body() {
   const [count,setCount]=useState(0)
@@ -21,14 +20,16 @@ export default function Body() {
   }
 
   return (
-    <div className="container">
+    <div class={style.container}>
       <Header />
-      <div className="slider" key= {count}>
-  <button onClick={handlePrev} className="prev">prev</button>
-      
-  <Card  words = {words[count]} />
+      <div class={style.slider} key= {count}>
+        <div >  <button onClick={handlePrev} class={style.button}>prev</button>
+</div>
 
-  <button onClick={handleNext} className="next">next</button>
+  <div className="card ">   <Card  words = {words[count]} />
+</div>
+  <div >  <button onClick={handleNext} class={style.button} >next</button>
+</div>
   </div>
       <Vocabulary />
       <Footer />

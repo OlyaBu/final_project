@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import style from './card.module.css';
 
+
+
 export default function Card ({words}) {
 
   const{
@@ -17,7 +19,6 @@ export default function Card ({words}) {
 
     return(
   
-        <div className={style.card_holder}>
 <div className={style.card}>  
 
             <h4 className={style.card_title}>{english}</h4>
@@ -28,9 +29,7 @@ export default function Card ({words}) {
    : 
    <button className={style.button} onClick={handleChange}>{russian}</button>
  }
-            </div>
-            </div>
-          
+            </div>          
 
     )
 }

@@ -1,12 +1,12 @@
 
 .header{
     height: 5vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     background:#02291C; 
     flex-direction: column;
     color: beige;
-    font-family:'Montserrat-Light';
+    font-family:'Montserrat';
     padding: 2%;
     
 }
