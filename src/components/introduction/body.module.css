@@ -1,9 +1,10 @@
 
-.main{
+
+.slider{
     display: flex;
-    flex-direction: column;
-justify-content: center;
-width: 104vw;
+    flex-direction: row;
+    align-items: center;
+
 }
 .title{
    
@@ -17,7 +18,6 @@ width: 104vw;
 
 .foto{
     text-align-last: center;
-    background-image: url(./back.jpg);
     background-size: 100%;     
 }
 
@@ -44,3 +44,4 @@ width: 104vw;
     background-clip: text;
     background-image: linear-gradient(135deg, rgb(38, 118, 92), fuchsia);
   }
+

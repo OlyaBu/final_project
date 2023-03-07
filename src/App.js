@@ -1,12 +1,9 @@
 import React from "react";
 import styles from "./App.module.css";
 import * as classNames from "classnames";
-import Header from "./components/introduction/header/header";
-import Body from "./components/introduction/body";
-import Footer from "./components/introduction/footer/footer";
+import Body from "./components/introduction/Body";
 
-class App extends React.Component {
-  render() {
+export default function App() {
     return (
       <div className={styles.container}>
      
@@ -15,6 +12,5 @@ class App extends React.Component {
       </div>
     );
   }
-}
 
-export default App;
+
