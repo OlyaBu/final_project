@@ -3,23 +3,27 @@
     height: 5vh;
     width: 100vw;
     display: flex;
-    background:#02291C; 
+    background:#f9c6c6; 
     flex-direction: column;
-    color: beige;
     font-family:'Montserrat';
     padding: 2%;
+    border: rgb(31, 29, 29) solid 3px;
+    text-decoration: none;
     
 }
 .navigation{
     display: flex;
 flex-direction: row;
 justify-content: space-around;
+font-size: x-large;
+text-decoration: none;
 
 }
 .about {
-	color: beige; 
     position: relative;
     cursor: pointer;
+    text-decoration: none;
+
 }
 .about:after {
 	content: "";
@@ -31,6 +35,8 @@ justify-content: space-around;
     height: 2px; 
     background-color: rgb(218, 142, 142); 
     transition: width 0.5s; 
+    text-decoration: none;
+
 }
 .about:hover:after {
 	content: "";
@@ -42,5 +48,7 @@ justify-content: space-around;
     height: 2px; 
     background-color:beige; 
     transition: width 0.5s;  
+    text-decoration: none;
+
 }
      

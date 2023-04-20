@@ -1,12 +1,16 @@
+
+.container{
+  height: 80%;
+  width: 100vw;
+}
 .block_table {
     display:flex;
     flex-direction:row;
     margin: 5%;
-width: 80%;    
+width: 90%; 
+height: auto;   
 justify-content: center;
 align-content: center;
-border: 5px solid rgb(55, 57, 55);
-box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 
 }
 
@@ -16,8 +20,7 @@ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     text-align:center;
     height:auto;
     font-size:19px;
-    width:100%;
-    border:#eaebe8 1px solid;
+    width:90%;
     padding-top:10px;
     padding-bottom:10px;
     border: #000111 solid 0.5px;
@@ -30,9 +33,8 @@ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 
 
 .table {
-	width: 100%;
-	margin-bottom: 20px;
-	border-collapse: collapse; 
+  padding: 4%;
+	width: 70%;
     font-family:'Montserrat';
 
 }
@@ -40,21 +42,18 @@ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 	font-weight: bold;
 	padding: 5px;
 	background: #efefef;
-	border: 1px solid #dddddd;
+	border: 1px solid #1c1a1a;
 }
 .table td {
-	border: 1px solid #dddddd;
 	padding: 5px;
-}
-.table tr td:first-child, .table tr th:first-child {
-	border-left: none;
-}
-.table tr td:last-child, .table tr th:last-child {
-	border-right: none;
-}
+  background-color: white;
+	border: 1px solid #1c1a1a;}
+
+
 
 .input{
-    width: 100%;
+    width: 90%;
+    height:90%;
     border: #777;
 }
 
@@ -62,8 +61,7 @@ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     margin-right: 2%;
     position: relative;
     display: inline-block;
-    width: fit-content;
-    height: fit-content;
+    width:40% ;    height: fit-content;
     line-height: 2.5em;
     vertical-align: middle;
     text-align: center;
@@ -82,11 +80,12 @@ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
   }
   .btn_save {
+    margin-top: 3%;
+    margin-left: 10%;
     height: fit-content;
     position: relative;
     display: inline-block;
-    width: fit-content;
-    height: fit-content;
+    width:50% ;
     line-height: 2.5em;
     vertical-align: middle;
     text-align: center;
@@ -103,10 +102,10 @@ box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
   }
   .btn_write {
+    margin-right: 3%;
     position: relative;
     display: inline-block;
-    width: fit-content;
-    height: fit-content;
+    width:40% ;    height: fit-content;
     line-height: 2.5em;
     vertical-align: middle;
     text-align: center;

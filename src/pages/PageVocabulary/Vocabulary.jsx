@@ -11,7 +11,7 @@ export default function Vocabulary(props) {
   }
 
     return(
-
+<div class={style.container}>
 <div class={style.block_table}>
 <table class={style.table}>
   <tr>
@@ -27,7 +27,7 @@ export default function Vocabulary(props) {
     <td >{transcrition}</td>
     <td>{translate}</td>
     <td>   <button className={style.btn_write} onClick={GetEditUser}>Edit</button>
-   <button className={style.btn_delete}>Del</button></td>
+   <button className={style.btn_delete}>X</button></td>
   </tr>
   )
   : (
@@ -36,10 +36,11 @@ export default function Vocabulary(props) {
   <td><input className={style.input} type="text" defaultValue= {english}/></td>
   <td> <input className={style.input} type="text" defaultValue={transcrition}/></td>
   <td><input className={style.input} type="text" defaultValue= {translate}/></td>
-  <button className={style.btn_save} onClick={GetEditUser}> Save</button>
+  <td><button className={style.btn_save} onClick={GetEditUser}> Save</button></td>
 </tr>)
 }
   </table>
+  </div>
   </div>
     )
 };

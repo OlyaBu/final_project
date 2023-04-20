@@ -7,6 +7,7 @@ export default function Footer () {
 <div className={styles.footer}>   
 
 
+<marquee>тут содержиться информация которая обычно содержиться в футере</marquee>
  </div>  
     )
 };

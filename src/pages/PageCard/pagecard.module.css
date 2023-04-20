@@ -1,0 +1,21 @@
+
+.button {
+    width: 130px;
+    height: 40px;
+    font-family:'Montserrat';
+    font-weight: 500;
+    font-size: x-large;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background: none;
+    border: 0cm;
+  } 
+  
+.slider{
+    display: flex;  
+  justify-content:space-around;
+  align-items: center;
+  gap:20px;
+  margin-top:5%;
+  margin-bottom: 7%;
+  }
